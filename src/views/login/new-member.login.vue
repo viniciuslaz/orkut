@@ -43,6 +43,7 @@ defineOptions({
   text-transform: uppercase;
   font-weight: bold;
   color: var(--text-link);
+  letter-spacing: -1px;
 }
 
 .sign-up:hover {

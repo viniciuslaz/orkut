@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <img src="../../assets/logo.webp" alt="Orkut Logo." loading="lazy" />
+    <img src="../../assets/orkut_logo.webp" alt="Orkut Logo." loading="lazy" />
 
     <p class="information">
       <span class="emphasis">Conecta-se</span> aos seus amigos e familiares usando recados e
@@ -11,7 +11,7 @@
       comunidades
     </p>
     <p class="information">
-      <span class="emphasis">Comparti-lhe</span> seus vídeos, fotos e paixões em um só lugar
+      <span class="emphasis">Compartilhe</span> seus vídeos, fotos e paixões em um só lugar
     </p>
   </div>
 </template>
@@ -36,7 +36,7 @@ export default {
 
 .about img {
   max-width: 100%;
-  max-height: 100px;
+  max-height: 120px;
   margin-bottom: 1rem;
 }
 

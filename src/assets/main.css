@@ -2,7 +2,8 @@
   --light-blue: #d4ddee;
   --footer-blue: #bccde9;
   --text-pink: #ba1b6d;
-  --text-link: #1542d8;
+  --text-link: #1137b4;
+  --light-purple: #7d4ea8;
 }
 
 * {
@@ -11,7 +12,8 @@
   box-sizing: border-box;
 }
 
-p {
+p,
+span {
   font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
 }
 
