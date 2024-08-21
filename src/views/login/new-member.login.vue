@@ -17,7 +17,7 @@ defineOptions({
 <style scoped>
 .box-login {
   background-color: #fff;
-  padding: 5px;
+  padding: 0.4rem;
 
   font-size: 0.95em;
 }
