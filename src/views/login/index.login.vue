@@ -10,6 +10,8 @@
           <newMember />
         </div>
       </div>
+
+      <footerLogin />
     </div>
   </div>
 </template>
@@ -22,6 +24,7 @@ defineOptions({
 import aboutLogin from "./about.login.vue";
 import boxLogin from "./box-login.login.vue";
 import newMember from "./new-member.login.vue";
+import footerLogin from "./footer.login.vue";
 </script>
 
 <style scoped>
@@ -38,13 +41,13 @@ import newMember from "./new-member.login.vue";
 .content {
   display: grid;
   grid-template-columns: 1fr 400px;
-  gap: 10px;
+  gap: 0.5rem;
 }
 
 .user-information {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 @media screen and (max-width: 991px) {
