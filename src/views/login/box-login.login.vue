@@ -14,12 +14,18 @@
           <input type="password" v-model="dataLogin.password" />
         </div>
 
-        <div class="option" style="margin: 0 1.2rem">
+        <div class="option" style="margin: 0">
           <input type="checkbox" name="infos" />
-          <p for="infos">Salvar as minhas informações neste computador</p>
+          <p for="infos" class="save-information">Salvar as minhas informações neste computador</p>
         </div>
 
         <span class="advice">Não use em computadores públicos. [?]</span>
+
+        <div class="btn-login">
+          <RouterLink to="/"><button role="link">Entrar</button></RouterLink>
+        </div>
+
+        <a href="#" class="help">Não consegue acessar sua conta?</a>
       </div>
     </div>
   </div>
@@ -41,8 +47,7 @@ const dataLogin = ref({
 <style scoped>
 .box-login {
   background-color: #fff;
-  padding: 5px;
-  height: 300px;
+  padding: 0.4rem;
 
   font-size: 0.95em;
 }
@@ -70,6 +75,10 @@ const dataLogin = ref({
   gap: 0.5rem;
 }
 
+.option .save-information {
+  user-select: none;
+}
+
 .form .option input[type="text"],
 .form .option input[type="password"] {
   padding: 4px 0;
@@ -79,5 +88,29 @@ const dataLogin = ref({
 .advice {
   text-align: center;
   color: var(--light-purple);
+  cursor: help;
+  user-select: none;
+}
+
+.btn-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.btn-login button {
+  width: 120px;
+  padding: 2px 10px;
+}
+
+.help {
+  text-align: center;
+  font-weight: normal;
+  color: var(--text-link);
+  margin-top: 0.5rem;
+}
+
+.help:hover {
+  text-decoration: none;
 }
 </style>
