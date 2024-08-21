@@ -13,8 +13,9 @@
 }
 
 p,
-span {
-  font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+span,
+a {
+  font-family: Arial, sans-serif, Verdana, Geneva, Tahoma;
 }
 
 .container {
