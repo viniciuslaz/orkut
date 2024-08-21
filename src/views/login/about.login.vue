@@ -42,6 +42,7 @@ export default {
 
 .information {
   font-size: 0.95em;
+  text-align: center;
 }
 
 .emphasis {
