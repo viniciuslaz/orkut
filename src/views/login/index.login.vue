@@ -2,7 +2,7 @@
   <div class="login">
     <div class="container">
       <div class="content">
-        <aboutLogin />
+        <aboutLogin id="aboutLogin" />
 
         <div class="user-information">
           <boxLogin />
@@ -45,5 +45,18 @@ import newMember from "./new-member.login.vue";
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+  #aboutLogin {
+    display: none;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 </style>
